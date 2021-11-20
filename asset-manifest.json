@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/arclif/static/css/main.b4bcad2e.chunk.css",
+    "main.css": "/arclif/static/css/main.fc1f90fc.chunk.css",
     "main.js": "/arclif/static/js/main.18059202.chunk.js",
     "main.js.map": "/arclif/static/js/main.18059202.chunk.js.map",
     "runtime-main.js": "/arclif/static/js/runtime-main.e22e217b.js",
@@ -8,7 +8,7 @@
     "static/js/2.f05e9f2e.chunk.js": "/arclif/static/js/2.f05e9f2e.chunk.js",
     "static/js/2.f05e9f2e.chunk.js.map": "/arclif/static/js/2.f05e9f2e.chunk.js.map",
     "index.html": "/arclif/index.html",
-    "static/css/main.b4bcad2e.chunk.css.map": "/arclif/static/css/main.b4bcad2e.chunk.css.map",
+    "static/css/main.fc1f90fc.chunk.css.map": "/arclif/static/css/main.fc1f90fc.chunk.css.map",
     "static/js/2.f05e9f2e.chunk.js.LICENSE.txt": "/arclif/static/js/2.f05e9f2e.chunk.js.LICENSE.txt",
     "static/media/img1.8a24706c.jpg": "/arclif/static/media/img1.8a24706c.jpg",
     "static/media/img2.293fc58b.jpg": "/arclif/static/media/img2.293fc58b.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.e22e217b.js",
     "static/js/2.f05e9f2e.chunk.js",
-    "static/css/main.b4bcad2e.chunk.css",
+    "static/css/main.fc1f90fc.chunk.css",
     "static/js/main.18059202.chunk.js"
   ]
 }
