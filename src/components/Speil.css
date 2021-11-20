@@ -1,0 +1,106 @@
+.speil {
+  width: 39vw;
+  height: 80px;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speilContainer {
+  height: 80px;
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.speilContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.createSpeil {
+  min-width: 31%;
+  height: 98%;
+  background-color: #ffffff;
+  box-shadow: 0 3px 30px rgba(78, 149, 255, 0.2);
+  border-radius: 10px;
+  border: 1px solid #0056d7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: all 0.2s ease;
+}
+
+.createSpeil > span {
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+  background-color: #0056d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.createSpeil > span:hover {
+  background-color: #4e95ff;
+}
+
+.plusIcon {
+  height: 18px;
+  width: 18px;
+  color: white;
+}
+
+.createSpeil > h4 {
+  margin-top: 7px;
+  font-size: 13px;
+}
+
+.spielCard {
+  min-width: 31%;
+  height: 98%;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 15px;
+  cursor: pointer;
+  box-shadow: 0 3px 50px rgba(0, 0, 0, 0.1);
+}
+
+.spielCard > h4 {
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0px 0px 10px 20px;
+  font-weight: 100;
+}
+
+.nextIconContainer {
+  height: 30px;
+  width: 30px;
+  background-color: #ffffff;
+  border-radius: 10px 0px 0px 10px;
+  z-index: 10;
+  margin-left: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowRightIcon {
+  color: #0056d7;
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+}
+
+.arrowRightIcon:hover {
+  color: #4e95ff;
+}

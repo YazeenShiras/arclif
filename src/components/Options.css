@@ -1,0 +1,42 @@
+.options {
+  background-color: #ffffff;
+  width: 20vw;
+  border-radius: 10px;
+  margin-left: 10vw;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.1);
+}
+
+.options > ul > li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  height: 45px;
+  font-size: 12px;
+}
+
+.optionTitle {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #efefef;
+}
+
+.options > ul > li > .optionTitle > h4 {
+  width: 100%;
+  margin-top: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.optionIcon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.last__option {
+  border: none;
+}

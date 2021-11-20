@@ -1,0 +1,140 @@
+.marketPlace {
+  background-color: #ffffff;
+  width: 20vw;
+  border-radius: 10px;
+  margin-left: 10vw;
+  margin-top: 15px;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.1);
+}
+
+.title__marketPlace {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title__marketPlace > .left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.cartIcon__marketplace {
+  height: 30px;
+  width: 30px;
+}
+
+.title__marketPlace > .left > h4 {
+  font-size: 13px;
+  margin-left: 7px;
+}
+
+.title__marketPlace > .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.arrow__marketPlace {
+  height: 30px;
+  width: 30px;
+  color: #0056d7;
+  cursor: pointer;
+}
+
+.arrow__marketPlace:hover {
+  color: #4e95ff;
+}
+
+.leftArrow {
+  margin-right: -8px;
+}
+
+.image__marketplace {
+  width: 100%;
+  height: 140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.indicatorsContaniner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.indicators {
+  min-height: 7px;
+  max-height: 7px;
+  min-width: 7px;
+  max-width: 7px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0px 2px;
+}
+
+.actived__indicator {
+  background-color: #0056d7;
+}
+
+.description__marketplace {
+  display: flex;
+  flex-direction: column;
+}
+
+.description__marketplace > h4 {
+  font-size: 14px;
+  margin: 10px 15px 5px 15px;
+}
+
+.description__marketplace > p {
+  font-size: 13px;
+  margin: 0px 15px;
+  margin-bottom: 5px;
+}
+
+.rupee {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.description__marketplace > h3 {
+  font-size: 15px;
+  margin: 0 15px;
+  margin-bottom: 10px;
+}
+
+.buttonContainer__marketplace {
+  margin-left: 15px;
+  width: 100%;
+  height: 60px;
+}
+
+.button__marketplace {
+  width: 100px;
+  height: 30px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #0056d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button__marketplace:hover {
+  background-color: #4e95ff;
+}
+
+.button__marketplace > p {
+  font-size: 12px;
+}

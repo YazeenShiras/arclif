@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.header {
+  background-color: #ffffff;
+  height: 90px;
+  width: 100%;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 100000;
+}
+
+.header__left {
+  margin-left: 10vw;
+}
+
+.header__logo {
+  height: 35px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.header__logo > img {
+  height: 100%;
+  width: 100%;
+}
+
+.searchContainer {
+  height: 35px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  border: 1px solid #000000;
+}
+
+.left__searchContainer {
+  width: 78%;
+  height: 101%;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #000000;
+}
+
+.searchIcon {
+  height: 25px;
+  width: 25px;
+  margin: 0px 10px;
+}
+
+.left__searchContainer > input {
+  border: none;
+  outline: none;
+  height: 50%;
+  width: 85%;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+.right__searchContainer {
+  width: 22%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.caretDownIcon {
+  margin-top: -5px;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.right__searchContainer > h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header__right {
+  margin-right: 10vw;
+}
+
+.iconHeader {
+  margin-bottom: -4px;
+  cursor: pointer;
+  margin-left: 15px;
+  height: 25px;
+  width: 25px;
+}
+
+.bellIcon {
+  height: 27px;
+  width: 23px;
+}

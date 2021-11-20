@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.postCard {
+  width: 39vw;
+  background-color: #ffffff;
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title__postCard {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left__title__postCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.left__title__postCard > .avatar__postCard {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.left__title__postCard > .avatar__postCard > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.left__title__postCard > h3 {
+  font-size: 14px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.right__title__postCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.optionIcon__postCard {
+  height: 25px;
+  width: 25px;
+}
+
+.image__postCard {
+  width: 100%;
+  object-fit: contain;
+}
+
+.image__postCard > img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.iconsContainer__postCard {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftIcons__postCard {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightIcons__postCard {
+  display: flex;
+  margin-right: 15px;
+}
+
+.viewCount__postCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.viewCount__postCard > p {
+  font-size: 14px;
+}
+
+.iconsPostcard__fntasm {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.iconPostCard {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.heartIcon__unlike {
+  height: 25px;
+  width: 25px;
+  display: none;
+}
+
+.leftIcons__postCard > .iconPostCard {
+  margin-right: 15px;
+}
+
+.leftIcons__postCard > .iconsPostcard__fntasm {
+  margin-right: 15px;
+}
+
+.eyeIcon {
+  margin-right: 5px;
+  cursor: default;
+}
+
+.heartIcon {
+  color: #0056d7;
+  font-size: 23px;
+}
+
+.commentIcon {
+  height: 20px;
+  width: 23px;
+}
+
+.superchatIcon {
+  height: 22px;
+  width: 29px;
+}
+
+.saveIcon {
+  color: #0056d7;
+  margin-left: 20px;
+  font-size: 23px;
+}
+
+.eyeIcon {
+  height: 25px;
+  width: 30px;
+}
+
+.descriptionContainer__postCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.descriptionContainer__postCard > h4 {
+  font-size: 15px;
+  margin-left: 14px;
+}
+
+.descriptionContainer__postCard > p {
+  margin-top: 10px;
+  font-size: 13px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: rgb(134, 134, 134);
+}
+
+.descriptionContainer__postCard > h5 {
+  font-size: 12px;
+  margin: 7px 0px 7px 15px;
+}
+
+.commentSection__postCard {
+  margin: 0px 15px;
+}
+
+.commentSection__postCard > p {
+  font-size: 12px;
+}
+
+.commentSection__postCard > p > span {
+  font-weight: bold;
+}
+
+.viewAllComments {
+  color: rgb(134, 134, 134);
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.writeCommentContainer__postCard {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.writeComment__postCard {
+  border-top: 2px solid #efefef;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.writeComment__postCard > input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.icons__writeComment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sendIcon {
+  height: 20px;
+  width: 25px;
+  color: #0056d7;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.smileIcon {
+  cursor: pointer;
+  margin-left: 15px;
+  height: 25px;
+  width: 25px;
+}
