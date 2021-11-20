@@ -32,7 +32,7 @@
 
 .searchContainer {
   height: 35px;
-  width: 550px;
+  width: 40vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
